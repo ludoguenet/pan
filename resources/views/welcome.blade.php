@@ -90,6 +90,6 @@
     </footer>
 
     <!-- Script Pan -->
-    <script src="{{ asset('pan-tracker.js') }}"></script>
+    @vite(['resources/js/app.js'])
 </body>
 </html>
